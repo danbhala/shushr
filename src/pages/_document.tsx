@@ -10,6 +10,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head />
+        <meta name="mobile-web-app-capable" content="yes" />
         <body>
           <Main />
           <NextScript />
