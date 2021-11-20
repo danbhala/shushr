@@ -11,7 +11,7 @@ export default function Layout({ children }: Props) {
     <div className="h-screen bg-gradient-to-r from-green-400 to-blue-500 flex flex-col">
       <Header />
       <main className="flex-grow flex justify-center items-center">{children}</main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
