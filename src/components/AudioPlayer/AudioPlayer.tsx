@@ -18,6 +18,7 @@ export default function AudioPlayer({file}: AudioPlayerProps) {
     }
     if (isPlaying) {
       audioRef.current.play();
+      audioRef.current.loop = true;
     } else {
       audioRef.current.pause();
     }
